@@ -1,0 +1,15 @@
+import time
+city=input("Enter the City in Which You Live:")
+time.sleep(3)
+a=float(input("Enter the Temp. observed on Monday:"))
+b=float(input("Enter the Temp. observed on Tuesday:"))
+c=float(input("Enter the Temp. observed on Wednesday:"))
+d=float(input("Enter the Temp. observed on Thursday:"))
+e=float(input("Enter the Temp. observed on Friday:"))
+f=float(input("Enter the Temp. observed on Saturday:"))
+g=float(input("Enter the Temp. observed on Sunday:"))
+time.sleep(2)
+print("Calculating......")
+time.sleep(2)
+avg_temp= (a + b + c + d + e + f + g) / 7
+print("The Avg Temp of: ",city, " is:", avg_temp)
